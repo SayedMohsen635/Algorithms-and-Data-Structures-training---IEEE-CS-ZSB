@@ -1,4 +1,3 @@
-#First try
 n = int(input())
 status = False
 arr = []
@@ -29,23 +28,3 @@ else:
     print("YES")
     for i in arr:
         print("".join(i))
-
-#Second try
-# arr = []
-# stat = False
-# seats = int(input())
-# for i in range(seats):
-#     tempo = input()
-#     if not stat:
-#         if(tempo[:2] == "OO"):
-#             stat = True
-#             tempo = "++" + tempo[2:]
-#         elif tempo[3:] == "OO":
-#             stat = True
-#             tempo = (tempo[0] and tempo[1] and tempo[2] and tempo[3]) + "++"
-#     arr.append(tempo)
-# if stat:
-#     print("YES")
-#     print(*arr , sep=("\n"))
-# else:
-#     print("NO")
